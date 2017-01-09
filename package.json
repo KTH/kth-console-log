@@ -1,0 +1,12 @@
+{
+  "name": "kth-console-log",
+  "version": "1.0.0",
+  "description": "Small console library used as default logger in KTH npm packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/runner.js"
+  },
+  "author": "Jens Tinglev",
+  "license": "MIT",
+  "devDependencies": {}
+}
