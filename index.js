@@ -7,11 +7,23 @@
 
 module.exports = {
 
-  trace: (msg) => console.trace(msg),
-  debug: (msg) => console.log(msg),
-  info: (msg) => console.info(msg),
-  warn: (msg) => console.warn(msg),
-  error: (msg) => console.error(msg),
-  fatal: (msg) => console.error(msg) 
+  trace: (...args) => {
+    console.trace(...args)
+  },
+  debug: (...args) => {
+    console.log(...args)
+  },
+  info: (...args) => {
+    console.info(...args)
+  },
+  warn: (...args) => {
+    console.warn(...args)
+  },
+  error: (...args) => {
+    console.error(...args)
+  },
+  fatal: (...args) => {
+    console.error(...args)
+  }
 
 }
