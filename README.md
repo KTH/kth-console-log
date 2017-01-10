@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/kth-console-log.png)](https://npmjs.org/package/kth-console-log)
+
 # kth-console-log
 Simple console logger used for default logging in our npm packages
 
