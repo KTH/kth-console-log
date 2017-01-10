@@ -6,12 +6,12 @@ This module can be use as a default, node-bunyan compatible logger in projects w
 ## Requirements of overriding logger
 If you use kth-console-log in your module and want to replace it with a custom logger, just make sure that the logger you are providing adheres to the following pseudo interface:
 ```
-function trace([string])
-function debug([string])
-function info([string])
-function warn([string])
-function error([string])
-function fatal([string])
+function trace(...args)
+function debug(...args)
+function info(...args)
+function warn(...args)
+function error(...args)
+function fatal(...args)
 ```
 
 ## Example of usage
