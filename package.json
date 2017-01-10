@@ -1,6 +1,6 @@
 {
   "name": "kth-console-log",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Small console library used as default logger in KTH npm packages",
   "main": "index.js",
   "scripts": {
